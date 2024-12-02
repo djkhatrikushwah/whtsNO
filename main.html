@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify Song Card</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: gray;
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        .card {
+            background-color: black;
+            border-radius: 15px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            width: 300px;
+            text-align: center;
+            padding: 20px;
+            color: white;
+        }
+
+        .card img {
+            width: 100%;
+            border-radius: 15px;
+        }
+
+        .card h2 {
+            margin: 15px 0 5px;
+            font-size: 24px;
+        }
+
+        .card p {
+            margin: 5px 0;
+            font-size: 18px;
+        }
+
+        .spotify-code {
+            margin-top: 20px;
+        }
+
+        .spotify-code img {
+            width: 100%;
+            border-radius: 5px;
+        }
+
+        .card .heart {
+            margin-top: 10px;
+            font-size: 24px;
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <img src="https://i.postimg.cc/8PSzHVVt/ty.jpg" alt="Album Cover">
+        <h2>You Belong With Me</h2>
+        <p>Taylor Swift</p>
+        <div class="spotify-code">
+            <a href="https://open.spotify.com/track/1qrpoAMXodY6895hGKoUpA?si=IikHFxkNRc2pCaMgg1dQDA"> 
+                <img src="https://i.postimg.cc/bYLxXLN0/spotify-codd.jpg" alt="Spotify Code">
+            </a>
+        </div>
+        <a href="https://music.youtube.com/watch?v=uD8d1KrDQcY"> <div class="heart">❤️</div></a>
+    </div>
+</body>
+</html>

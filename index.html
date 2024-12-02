@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="https://i.postimg.cc/8C6SDg4y/Dhananjay.png" type="image/png">
+  </head>
+  <body>
+    <div class="container">
+      <div>
+        <h1 class="header_text">Just wanted to correct my mistake!!</h1><br>
+        PS: Plzzz just accept my apology and this Lil Effort <br>
+        I knw video was lame, but it was the fastest<br>
+        {ahh lots of explanation} but trust me <br>
+        never back-off from putting efforts!!! <br>
+        <h3>Jaisa SRK ne kaha hai <br>
+          Kehte hain agar kisi cheez ko dil se chaho …
+          toh puri kainaat usse tumse milane ki koshish mein lag jaati hai</h3><br>
+          If u Don't BELEIEVE ME TRY pressing "NO"
+
+      </div>
+     
+      <div class="gif_container">
+        <img
+          src="https://i.postimg.cc/pdNqPxx1/milk-and-mocha-cute.gif"
+          alt="Cute animated illustration"
+        />
+      </div>
+      <div class="buttons">
+        <button class="btn" id="yesButton" onclick="nextPage()">Yes</button>
+        <button
+          class="btn"
+          id="noButton"
+          onmouseover="moveButton()"
+          onclick="moveButton()"
+        >
+          No
+        </button>
+
+        <script>
+          function nextPage() {
+            window.location.href = "yes.html";
+          }
+
+          function moveButton() {
+            var x =
+              Math.random() *
+              (window.innerWidth -
+                document.getElementById("noButton").offsetWidth);
+            var y =
+              Math.random() *
+              (window.innerHeight -
+                document.getElementById("noButton").offsetHeight);
+            document.getElementById("noButton").style.left = `${x}px`;
+            document.getElementById("noButton").style.top = `${y}px`;
+          }
+        </script>
+      </div>
+    </div>
+  </body>
+</html>
